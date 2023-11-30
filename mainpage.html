@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+    <!--
+        Click on this link to create your own markers...
+        https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+    -->
+    <style>
+        body{
+            background-image:url("./info/bg2.png");
+            background-size: cover;  
+            opacity: 0.9
+        }
+        #mainContent{
+        
+            flex: 1;
+            background-color: white;
+            margin:25px;
+            padding:25px;
+            border:3px solid black;
+            height:500px;
+        }
+
+        #btnStyle{
+          
+            flex-wrap:wrap;
+        }
+        #btnStyle button{
+            width: 200px;
+            height: 100px; 
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+   
+    <div id="mainContent">
+        <center>
+            <h2>Welcome guys click on any of the buttons given below to get more information about it... </h2>
+        
+
+        <div id="btnStyle">
+            <button >
+                Base
+            </button>
+            <button>
+                Acid
+            </button>
+            <button> 
+                Acid + Base
+            </button>
+        </div>
+
+    </center>
+    </div>
+
+
+</body>
+
+</html>
